@@ -28,7 +28,7 @@ const Slider = ({
   return (
     <View style={StyleSheet.absoluteFill}>
       {current}
-      {/* {prev && (
+      {prev && (
         <View style={[StyleSheet.absoluteFill]}>
           <Wave side={Side.LEFT}>{prev}</Wave>
         </View>
@@ -37,7 +37,7 @@ const Slider = ({
         <View style={StyleSheet.absoluteFill}>
           <Wave side={Side.RIGHT}>{next}</Wave>
         </View>
-      )} */}
+      )}
     </View>
   );
 };

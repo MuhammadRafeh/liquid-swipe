@@ -43,7 +43,8 @@ interface SlideProps {
 const Slide = ({
   slide: { picture, color, title, description },
 }: SlideProps) => {
-  // const lighterColor = Color(color).lighten(0.8).toString();
+  // const lighterColor = Color(color).lighten(0.8)
+  // console.log(lighterColor)
   return (
     <>
       <Svg style={StyleSheet.absoluteFill}>

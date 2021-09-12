@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
+    "@types/color": "^3.0.2",
     "color": "^4.0.1",
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
